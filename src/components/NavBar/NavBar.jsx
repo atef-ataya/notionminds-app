@@ -45,7 +45,7 @@ const NavBar = () => {
             <span className="menu-text">Services</span>
           </NavLink>
         </li>
-        <li className="has-children">
+        {/* <li className="has-children">
           <NavLink to={process.env.PUBLIC_URL + '/work'}>
             <span className="menu-text">Work</span>
           </NavLink>
@@ -64,8 +64,18 @@ const NavBar = () => {
               </NavLink>
             </li>
           </ul>
+        </li> */}
+        <li>
+          <NavLink to={process.env.PUBLIC_URL + '/work'}>
+            <span className="menu-text">Work</span>
+          </NavLink>
         </li>
-        <li className="has-children">
+        <li>
+          <NavLink to={process.env.PUBLIC_URL + '/blog'}>
+            <span className="menu-text">Blog</span>
+          </NavLink>
+        </li>
+        {/* <li className="has-children">
           <NavLink to={process.env.PUBLIC_URL + '/blog-grid'}>
             <span className="menu-text">Blog</span>
           </NavLink>
@@ -89,7 +99,7 @@ const NavBar = () => {
               </NavLink>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li>
           <NavLink to={process.env.PUBLIC_URL + '/contact'}>
             <span className="menu-text">Contact Us</span>

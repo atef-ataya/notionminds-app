@@ -10,7 +10,7 @@ import Service from './pages/Service';
 import Work from './pages/Work';
 import WorkDetails from './pages/WorkDetails';
 import BlogGrid from './pages/BlogGrid';
-import BlogClassic from './pages/BlogClassic';
+// import BlogClassic from './pages/BlogClassic';
 import BlogDetails from './pages/BlogDetails';
 import BlogCategories from './pages/BlogCategories';
 import BlogTag from './pages/BlogTag';
@@ -70,13 +70,13 @@ function App() {
             component={WorkDetails}
           />
           <Route
-            path={`${process.env.PUBLIC_URL + '/blog-grid'}`}
+            path={`${process.env.PUBLIC_URL + '/blog'}`}
             component={BlogGrid}
           />
-          <Route
+          {/* <Route
             path={`${process.env.PUBLIC_URL + '/blog-classic'}`}
             component={BlogClassic}
-          />
+          /> */}
           <Route
             path={`${process.env.PUBLIC_URL + '/tag/:slug'}`}
             component={BlogTag}
