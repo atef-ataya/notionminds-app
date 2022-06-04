@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Joing with us Business",
+    "desc": "GET SOLUTION FOR YOUR BUSINESS.",
+    "backgroundImage": "/images/hero-image/hero-1.jpg"
+  },
+  {
+    "id": "2",
+    "title": "We Help To Growing Business",
+    "desc": "VALUE & BUILD CONFIDENCE",
+    "backgroundImage": "/images/hero-image/hero-2.jpg"
+  },
+  {
+    "id": "3",
+    "title": "A Big Opportunity For",
+    "desc": "BUSINESS PLANNING AND SOLUTION",
+    "backgroundImage": "/images/hero-image/hero-3.jpg"
+  }
+]
