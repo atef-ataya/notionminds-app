@@ -1,6 +1,6 @@
 import React from 'react';
 import SEO from '../components/SEO';
-import Header from "../partials/header/Header";
+import Header from '../partials/header/Header';
 import IntroSlider from '../container/IntroSlider/IntroSlider';
 import HomeAbout from '../components/About/HomeAbout.jsx';
 import ServiceIconBox from '../container/service/ServiceIconBox';
@@ -12,28 +12,23 @@ import ContactInformation from '../container/ContactInformation/ContactInformati
 import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop.jsx';
 
-
-
 const HomeOne = () => {
-    return (
-        <React.Fragment>
-            <SEO title="Exomac – Business React JS Template" />
-            <Header />
-            <IntroSlider />
-            <HomeAbout />
-            <ServiceIconBox classOption="bg-color-1" />
-            <HomeSuccess />
-            <Portfolio />
-            <HomeBlog />
-            <Newsletter />
-            <ContactInformation />
-            <Footer />
-            <ScrollToTop />
-        </React.Fragment>
-    )
-}
+  return (
+    <React.Fragment>
+      <SEO title="Notion Minds – Business React JS Template" />
+      <Header />
+      <IntroSlider />
+      <HomeAbout />
+      <ServiceIconBox classOption="bg-color-1" />
+      <HomeSuccess />
+      <Portfolio />
+      <HomeBlog />
+      <Newsletter />
+      <ContactInformation />
+      <Footer />
+      <ScrollToTop />
+    </React.Fragment>
+  );
+};
 
 export default HomeOne;
-
-
-

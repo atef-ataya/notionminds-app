@@ -72,14 +72,14 @@ const Footer = () => {
         <div className="row">
           <div className="col">
             <p className="copyright">
-              &copy; 2021 <strong>Exomac</strong> Made with{' '}
+              &copy; 2017 <strong>Notion Minds</strong> Made with{' '}
               <i className="fas fa-heart text-danger"></i> by{' '}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://hasthemes.com/"
+                href="https://www.notionminds.com/"
               >
-                <strong>HasThemes</strong>
+                <strong>Notion Minds</strong>
               </a>
               .
             </p>
