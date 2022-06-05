@@ -1,5 +1,5 @@
 {
-  "name": "Notion Minds",
+  "name": "NotionMinds",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,7 @@
     "react-modal-video": "^1.2.6",
     "react-parallax-tilt": "^1.4.89",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^5.0.1",
     "react-typed": "^1.2.0",
     "react-visibility-sensor": "^5.1.1",
     "react-vivus": "0.0.2",
