@@ -15,7 +15,7 @@ import ScrollToTop from '../components/ScrollToTop.jsx';
 const HomeOne = () => {
   return (
     <React.Fragment>
-      <SEO title="Notion Minds – Business React JS Template" />
+      <SEO title="Notion Minds" />
       <Header />
       <IntroSlider />
       <HomeAbout />
